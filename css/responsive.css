@@ -1,0 +1,158 @@
+@media all and (max-width: 1200px) {
+
+    .contact-header .num-email .num a,
+    .contact-header .num-email .email a {
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 991px) {
+
+    .contact-header .num-email .num a,
+    .contact-header .num-email .email a {
+        display: none;
+    }
+
+    .check-in-out .date input {
+        width: 95%;
+        margin-left: 17px;
+    }
+
+    .check-in-out .date h2 {
+        margin: 8px 15px;
+    }
+
+    .check-done a {
+        margin: 27px 16px;
+    }
+
+    .check-container {
+        position: inherit;
+    }
+
+    .about-us {
+        padding: 0;
+    }
+
+    .about-img .img-sec-left {
+        width: 50%;
+    }
+
+    .about-img .img-sec-right {
+        width: 50%;
+    }
+
+}
+
+@media all and (max-width: 767px) {
+
+    .header-caption h1 {
+        font-size: 35px;
+    }
+
+    .header-caption a {
+        padding: 10px 4px;
+    }
+
+    .service .service-item {
+        width: 86.1%;
+        float: none;
+        margin: 1.45% auto;
+    }
+
+    .room-slider .left-side {
+        overflow: hidden;
+        height: 50%;
+        padding: 0;
+        padding: 0;
+    }
+
+    .slider-content {
+        margin-top: 12px;
+    }
+
+    .slider-content h2 {
+        font-size: 35px;
+    }
+
+    .slider-content p {
+        font-size: 22px;
+    }
+
+    .slider-content ul li {
+        padding: 1px;
+        font-size: 15px;
+        color: #fff;
+    }
+
+    .slider-content h2 {
+        margin: 0 0 40px 3%;
+    }
+
+    .slider-content p {
+        margin: 0 0 40px 3%;
+    }
+
+    .slider-content ul {
+        margin: 0 0 40px 3% !important;
+    }
+
+    .slider-content ul li h5 {
+        width: 78px;
+        font-size: 15px;
+    }
+
+    .testimonial-img img {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 7px;
+    }
+
+    .testimonial-content h5 {
+        margin: 32px 0 20px 0;
+    }
+
+    .testimonial-content {
+        text-align: justify;
+    }
+
+    .news .event {
+        margin: 135px 0;
+    }
+
+    .news .event:hover {
+        margin: 135px 0;
+    }
+
+    .contact2 {
+        text-align: center;
+    }
+
+    .brand-logo .brand {
+        width: 19%;
+        float: none;
+        margin: 27px auto;
+    }
+
+    .about-details p {
+        width: 100%;
+    }
+
+    .about-details {
+        text-align: center;
+    }
+
+}
+
+@media all and (max-width: 468px) {
+
+    .header-caption h1 {
+        font-size: 35px;
+    }
+
+    .header-caption a {
+        padding: 10px 4px;
+    }
+
+}

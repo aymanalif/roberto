@@ -1,0 +1,664 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Hotel
+	Template URI: http://www.hotel.com
+	Description: ====================.
+	Author: Ayman Alif
+	Author URI: http://www.aymanalif.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------
+
+    1. contact-header area
+    2. nav area
+    3. slider area
+    4. check in area 
+    5. about us area 
+    6. service arae 
+    7. room rate area 
+    8. testimonial area 
+    9. protfolio area 
+    10.news areat
+    11.contact area
+    12.brand area 
+    12.footer area
+
+-----------------------------------------------------------------------------------*/
+
+/* 1. contact-header area is start */
+
+.contact-header {
+	background: #0E2737;
+	height: 40px;
+}
+
+.contact-header .num-email {
+	margin-top: 8px;
+}
+
+.contact-header .num-email .num a,
+.contact-header .num-email .email a {
+	margin: 10px 20px;
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.contact-header .num-email .num i,
+.contact-header .num-email .email i {
+	margin: 0 8px;
+	font-size: 16px;
+	color: #1CC3B2;
+}
+
+.social-ico ul li {
+	display: inline-block;
+}
+
+.social-ico ul li i {
+	margin: 11px 20px;
+	color: #fff;
+}
+
+.mobile-nav a i {
+	color: #fff;
+	font-size: 20px;
+	padding: 11px;
+}
+
+.mobile-nav ul {
+	color: #fff;
+	font-size: 20px;
+	padding: 11px;
+}
+
+/* 2. nav area start */
+
+.nav-bar .logo-area img {
+	width: 108px;
+	margin: 8px 0 0 0;
+}
+
+.nav-area {
+	text-align: center;
+}
+
+.nav-area ul li {
+	display: inline-block;
+}
+
+.nav-area ul li a {
+	display: inline-block;
+	padding: 9px 17px;
+	font-size: 17px;
+	font-family: tahoma;
+	color: #646464;
+	transition-duration: 0.5s;
+}
+
+.nav-area ul li a:hover {
+	background: #1cc3b2;
+}
+
+.booking a {
+	display: inline-block;
+	padding: 8px 22px;
+	background: #1cc3b2;
+	font-size: 18px;
+	color: #fff;
+	font-family: tahoma;
+	transition-duration: 0.5s;
+}
+
+.booking a:hover {
+	background: #274D52;
+}
+
+
+/* 3. slider area is here */
+
+.slider-area .carousel-inner .item {
+	height: 600px;
+}
+
+.slider-area .carousel-inner .item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.header-caption {
+	right: 20%;
+	left: 20%;
+	padding-bottom: 30px;
+	top: 26%;
+}
+
+.header-caption h3 {
+	text-align: center;
+	font-size: 26px;
+	padding: 5px 0 20px 0;
+	color: #fff;
+}
+
+.header-caption h1 {
+	padding: 30px 0 50px 0;
+	font-size: 60px;
+	text-align: center;
+	font-family: tahoma;
+	color: #fff;
+	font-weight: bold;
+}
+
+.header-caption a {
+	text-align: center;
+	font-size: 24px;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 30px;
+	border: 2px solid #1CC2B1;
+	border-radius: 4px;
+	transition-duration: .5s;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* 4. check in area start */
+.check {
+	position: relative;
+	min-height: 125px;
+}
+
+.check-container {
+	padding: 34px 0 45px 0;
+	width: 80%;
+	margin: 0 auto;
+	position: absolute;
+	top: -82px;
+	left: 0;
+	right: 0;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 14px 15px #7d7d7d;
+	z-index: 2000;
+}
+
+.check-in-out .date {
+	padding: 0;
+}
+
+.check-in-out .date h2 {
+	margin: 8px 0;
+	font-size: 17px;
+}
+
+.check-in-out .date input {
+	width: 86%;
+	height: 38px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #a5a5a5;
+	padding-left: 10px;
+}
+
+.check-container .select .select-op h2 {
+	margin: 8px 50px 8px 0;
+	font-size: 17px;
+}
+
+.check-container .select .select-op select {
+	margin: 0 10px 0 0;
+	padding: 9px 22px;
+	border-radius: 5px;
+	border: 1px solid rgb(168, 168, 168);
+	width: 100%;
+}
+
+.check-done a {
+	display: inline-block;
+	margin-top: 27px;
+	background: #1CC3B2;
+	padding: 13px 19px;
+	border-radius: 5px;
+	font-size: 15px;
+	color: #fff;
+	transition-duration: .5s;
+}
+
+.check-done a:hover {
+	background: #fff;
+	box-shadow: 0 0 30px #a5a5a5;
+	color: #1CC3B2;
+}
+
+/* 5.about us area start */
+
+.about-us {
+	padding: 50px 0;
+}
+
+.about-details h4 {
+	margin: 50px 0 20px 0;
+	font-weight: 400;
+	color: #1CC3B2;
+}
+
+.about-details h2 {
+	font-size: 50px;
+	font-weight: 400;
+}
+
+.about-details h3 {
+	font-size: 50px;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+
+.about-details p {
+	width: 93%;
+	font-size: 20px;
+	line-height: 40px;
+	color: #636A76;
+}
+
+.about-img::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.about-img .img-sec-left {
+	width: 45%;
+	float: left;
+}
+
+.about-img .img-sec-left img {
+	width: 100%;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.about-img .img-sec-right {
+	width: 45%;
+	overflow: hidden;
+}
+
+.about-img .img-sec-right img {
+	width: 100%;
+	margin: 5px 0 0 20px;
+	border-radius: 5px;
+}
+
+
+/* 6. service arae start */
+
+.service {
+	padding: 80px 0;
+}
+
+.service .service-item {
+	width: 17.1%;
+	height: 190px;
+	float: left;
+	margin: 1.45%;
+	border-radius: 13px;
+	transition-duration: 0.5s;
+	border: 1px solid #c1c1c1;
+	text-align: center;
+	transition: 0.3s;
+}
+
+.service .service-item img {
+	margin: 30px 0;
+}
+
+.service .service-item h3 {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.service .service-item:hover {
+	background: #DBDBDB;
+	box-shadow: 0 0 19px #36f7e4a8;
+}
+
+
+/* 7. room rate area start */
+
+.room-slider .item {
+	height: 700px;
+	background: #0E2737;
+}
+
+.room-slider .left-side {
+	overflow: hidden;
+	height: 100%;
+	padding: 0;
+	padding: 0;
+}
+
+.room-slider .left-side img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: right;
+}
+
+.slider-content {
+	margin-top: 150px;
+}
+
+.slider-content h2 {
+	margin: 0 0 40px 90px;
+	font-size: 50px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.slider-content p {
+	margin: 0 0 40px 100px;
+	color: #1BC2B1;
+	font-size: 40px;
+}
+
+.slider-content ul {
+	margin: 0 0 40px 90px !important;
+}
+
+.slider-content ul li {
+	padding: 5px;
+	font-size: 19px;
+	color: #fff;
+}
+
+.slider-content ul li h5 {
+	display: inline-block;
+	width: 100px;
+	font-size: 19px;
+	color: #fff;
+	font-weight: 500;
+}
+
+.slider-content ul li i {
+	padding: 0px 10px 0 0;
+	color: #fff;
+}
+
+
+/* 8. testimonial area start */
+
+.testimonial {
+	padding: 116px 0;
+}
+
+.testimonial-img img {
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 7px;
+}
+
+.testimonial-content h5 {
+	margin: 0 0 20px 0;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.testimonial-content h2 {
+	margin: 0px 0 20px 0;
+	font-size: 40px;
+	font-weight: 400;
+}
+
+.testimonial-pera p {
+	line-height: 30px;
+}
+
+
+/* 9. protfolio area start  */
+
+.protfolio {
+	padding: 30px 0;
+	overflow: hidden;
+}
+
+.protfolio .protfolio-item {
+	border: 4px solid rgb(255, 255, 255);
+	box-sizing: border-box;
+}
+
+.protfolio::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.protfolio .protfolio-item {
+	border: 4px solid rgb(255, 255, 255);
+	box-sizing: border-box;
+	padding: 0;
+	height: 700px;
+	position: relative;
+	overflow: hidden;
+}
+
+.protfolio .protfolio-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: scale(1);
+	transition: 0.5s;
+}
+
+.protfolio .total-content {
+	position: absolute;
+	bottom: -50%;
+	background: #1CC3B2;
+	transition: 0.5s;
+	opacity: 0;
+	z-index: 200;
+}
+
+.protfolio .total-content .content {
+	width: 100%;
+	padding: 25px;
+	transition-duration: .7s;
+}
+
+.protfolio .total-content h4 {
+	color: #fff;
+	margin: 8px 0 8px 0;
+	font-weight: 400;
+}
+
+.protfolio .total-content h3 {
+	color: #fff;
+	margin: 8px 0 8px 0;
+	font-weight: 400;
+}
+
+.protfolio .total-content p {
+	width: 90%;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+.protfolio .total-content .discover {
+	width: 100%;
+	height: 100px;
+	background: rgb(14, 39, 55);
+}
+
+.protfolio .total-content .discover a {
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+	margin: 34px 0 0 30px;
+	display: inline-block;
+}
+
+.protfolio .protfolio-item:hover img {
+	transform: scale(1.3);
+}
+
+.protfolio .protfolio-item:hover .total-content {
+	bottom: 0px;
+	opacity: 1;
+}
+
+/* 10. news area start */
+
+.news {
+	padding: 70px 0;
+}
+
+.news>h4 {
+	font-size: 20px;
+	letter-spacing: 20px;
+	margin: 10px;
+	font-weight: 300;
+	color: #1CC3B2;
+}
+
+.news>h3 {
+	text-align: center;
+	font-size: 40px;
+	margin: 10px 0 50px 0;
+	font-weight: 400;
+}
+
+.news .event {
+	margin: 40px 0;
+	transition: 0.3s;
+	height: 452px;
+}
+
+.news .event:hover {
+	margin: 5px 0;
+}
+
+.news .event .blog {
+	width: 95%;
+	margin: auto;
+	transition-duration: .7s;
+}
+
+.news .event .blog img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.news .event .blog h4 {
+	margin: 30px 0 10px 0;
+	font-weight: 200;
+}
+
+.news .event .blog h3 {
+	margin: 0px 0 10px 0;
+	font-weight: 200;
+	font-size: 22px;
+	font-weight: 400;
+	cursor: pointer;
+	transition-duration: .7s;
+}
+
+
+/*  11. contact area is here */
+
+.contact2 {
+	padding: 53px 0;
+	background: url(../images/1.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	transition: 2s;
+}
+
+.contact2:hover {
+	background-position: top;
+}
+
+.contact-headers h2 {
+	font-size: 40px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.content-number h3 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+}
+
+.contact-btn a {
+	padding: 20px 40px;
+	display: inline-block;
+	background: #1cc3b2;
+	font-size: 19px;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 5px;
+	transition-duration: 0.5s;
+}
+
+.contact-btn a:hover {
+	background: #fff;
+	color: #1cc3b2;
+}
+
+/* 12. brand area start */
+
+.brand-logo {
+	padding: 40px;
+}
+
+.brand-logo::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.brand-logo .brand {
+	width: 19%;
+	margin: 20px .1%;
+	float: left;
+	text-align: center;
+}
+
+.brand-logo .brand img {
+	cursor: pointer;
+}
+
+
+/* 13. footer area is start */
+
+.foot .copyright {
+	padding: 50px 0;
+	background: #1C2023;
+	box-shadow: 0 0 20px #000000;
+}
+
+.foot .copyright p {
+	color: #6d6d6d;
+	font-size: 14px;
+	margin: 0;
+}
+
+.foot .copyright ul li {
+	display: inline-block;
+	margin: 5px 20px 0 20px;
+}
+
+.foot .copyright ul li a i {
+	color: #fff;
+	font: 20px;
+}
+
+/* end end end end end end end end end end end end end 
+end end end end end end end end end end end end end end 
+end end end end end end end end end end end end end end end 
+end end end end end end end end end end end end end end end end  */
